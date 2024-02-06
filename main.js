@@ -1,5 +1,5 @@
-var typed = new typed(".text", {
-  Strings: [
+var Typed = new Typed(".text", {
+  strings: [
     "Desenvolvedor Frontend",
     "Desenvolvedor Backend",
     "Desenvolvedor Web",
