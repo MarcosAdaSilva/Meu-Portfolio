@@ -6,6 +6,7 @@
 }
 body {
   color: #ededed;
+  background-color: #081b29;
 }
 .header {
   position: fixed;
@@ -143,6 +144,20 @@ body {
   height: auto;
   width: 100%;
   border-radius: 8px;
+}
+.sobre-text {
+  font-size: 60px;
+}
+.sobre-text h2 span {
+  color: #0ef;
+}
+
+.sobre-text h4 {
+  font-size: 29px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.7;
+  margin: 15px 0 30px;
 }
 
 @keyframes slideRight {
