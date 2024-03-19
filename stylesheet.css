@@ -241,6 +241,17 @@ body {
   transform: translateY(-10px);
 }
 
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container1 {
+  width: 600px;
+  height: 500px;
+  padding: 75px 90px;
+  margin-left: 120px;
+}
+
 @keyframes slideRight {
   0% {
     transform: translateX(-100px);
