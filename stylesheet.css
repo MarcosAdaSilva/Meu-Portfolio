@@ -336,7 +336,7 @@ section {
   border-radius: 3px;
   top: -28px;
   right: -20px;
-  animation: showext 0.5s 1.5s linear forwards;
+  animation: showText 0.5s 1.5s linear forwards;
   opacity: 0;
 }
 .progress-line.html span::after {
