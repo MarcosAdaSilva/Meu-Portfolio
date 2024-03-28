@@ -259,19 +259,19 @@ section {
   margin-bottom: 50px;
 }
 .bar {
-  font-size: 50px;
+  font-size: 23px;
 }
 .Technical-bars .bar {
-  margin-top: 40px 10px;
+  margin-top: 40px 0px;
 }
 .Technical-bars .bar:first-child {
-  margin-top: 10;
+  margin-top: 0;
 }
 .Technical-bars .bar:last-child {
-  margin-bottom: 10;
+  margin-bottom: 0;
 }
 .Technical-bars .bar .info {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .Technical-bars .bar .info span {
   font-size: 17px;
@@ -283,7 +283,7 @@ section {
   position: relative;
   border-radius: 10px;
   width: 100%;
-  height: 15px;
+  height: 5px;
   background-color: #000000;
   animation: animate 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
   transform: scaleX(1);
