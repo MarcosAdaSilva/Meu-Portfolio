@@ -344,13 +344,7 @@ section {
   top: -28px;
   right: -20px;
   animation: showText 0.5s 1.5s linear forwards;
-  opacity: 1;
-}
-
-@keyframes showText {
-  100% {
-    opacity: 1;
-  }
+  opacity: 0;
 }
 
 .progress-line.html span::after {
@@ -406,7 +400,7 @@ section {
   align-items: flex-start;
 }
 .radial-bars .radial-bars {
-  width: 100%;
+  width: 50%;
   height: 170px;
   margin-bottom: 10px;
   position: relative;
@@ -456,23 +450,33 @@ section {
 
 @keyframes animate-path1 {
   100% {
-    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
   }
 }
 @keyframes animate-path2 {
   100% {
-    stroke-dasharray: 175;
+    stroke-dashoffset: 175;
   }
 }
 @keyframes animate-path3 {
   100% {
-    stroke-dasharray: 125;
+    stroke-dashoffset: 125;
   }
 }
 @keyframes animate-path4 {
   100% {
-    stroke-dasharray: 70;
+    stroke-dashoffset: 70;
   }
+}
+.radial-bars .percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 17px;
+  font-weight: 500;
+  animation: showText 0.5s 1s linear forwards;
+  opacity: 0;
 }
 
 @keyframes slideRight {
