@@ -47,10 +47,10 @@ body {
 }
 .home {
   position: relative;
-  width: 100%;
+  width: 90%;
   justify-content: space-between;
   height: 100vh;
-  background: url(img/nova-img.png) no-repeat;
+  background: url(img/fototeste3.png) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -503,7 +503,7 @@ section {
   line-height: 1;
   text-align: center;
 }
-.contact-text span {
+.contact-text h2 span {
   color: #0ef;
 }
 .contact-text h4 {
@@ -511,6 +511,49 @@ section {
   color: rgb(228, 228, 228);
   font-size: 20px;
   font-weight: 600;
+}
+.contact-text p {
+  color: rgb(177, 177, 177);
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+.contact-list {
+  margin-bottom: 10px;
+}
+.contact-list li {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.contact-list i {
+  display: inline-block;
+  color: #0ef;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
+.contact-list li a:hover {
+  transform: scale(1.01) translateY(-5px);
+  color: #0ef;
+}
+.contact-icons i {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #0ef;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #0ef;
+  text-decoration: none;
+  margin: 30px 15px 30px 0;
+  transition: 0.5s ease;
+  opacity: 0;
+  animation: slideLeft 1s ease forwards;
+  animation-delay: calc(0.2s * var(--i));
 }
 
 @keyframes slideRight {
