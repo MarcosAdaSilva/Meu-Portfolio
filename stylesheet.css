@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
   font-family: "poppins", sans-serif;
 }
 body {
@@ -47,7 +48,7 @@ body {
 }
 .home {
   position: relative;
-  width: 90%;
+  width: 95%;
   justify-content: space-between;
   height: 100vh;
   background: url(img/fototeste3.png) no-repeat;
@@ -180,7 +181,7 @@ body {
 .sub-title span {
   color: #0ef;
 }
-.container {
+.container1 {
   padding: 90px;
 }
 .services-list {
@@ -280,11 +281,7 @@ section {
   animation: showText 0.5s 1s linear forwards;
   opacity: 0;
 }
-@keyframes showText {
-  100% {
-    opacity: 1;
-  }
-}
+
 .Technical-bars .bar .progress-line {
   position: relative;
   border-radius: 10px;
@@ -292,7 +289,7 @@ section {
   height: 5px;
   background-color: #000000;
   animation: animate 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
-  transform: scaleX(1);
+  transform: scaleX(0);
   transform-origin: left;
 }
 @keyframes animate {
@@ -306,11 +303,11 @@ section {
   position: absolute;
   border-radius: 10px;
   animation: animate 1s 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
-  transform: scaleX(1);
+  transform: scaleX(0);
   transform-origin: left;
 }
 
-.progress-line.html span {
+.progress-line html span {
   width: 60%;
 }
 .progress-line.css span {
@@ -554,6 +551,70 @@ section {
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: calc(0.2s * var(--i));
+}
+.contact-icons i:hover {
+  background: #0ef;
+  color: #000;
+  box-shadow: 0 0 2px #0ef;
+}
+.contact-form {
+  position: relative;
+}
+.contact-form form input,
+form textarea {
+  border: none;
+  outline: none;
+  width: 90%;
+  padding: 18px;
+  background: #555557;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+.contact-form textarea {
+  resize: none;
+  height: 220px;
+}
+.contact-form form .send {
+  display: inline-block;
+  padding: 14px 60px;
+  background: #0ef;
+  border-radius: 40px;
+  font-size: 18px;
+  color: #081b29;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: 2s;
+  box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+.contact-form form .send:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+}
+.last-text p {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: rgb(7, 85, 91);
+  font-weight: 300;
+  margin-top: 70px;
+}
+.top {
+  position: fixed;
+  bottom: 2.1rem;
+  right: 2, 1rem;
+}
+.top i {
+  color: #000;
+  background: #0ef;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.5rem;
 }
 
 @keyframes slideRight {
