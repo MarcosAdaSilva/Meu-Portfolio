@@ -48,10 +48,10 @@ body {
 }
 .home {
   position: relative;
-  width: 95%;
+  width: 110%;
   justify-content: space-between;
   height: 100vh;
-  background: url(img/fototeste3.png) no-repeat;
+  background: url(img/Design1.png) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -85,6 +85,7 @@ body {
   animation-delay: 1s;
 }
 .home-content p {
+  text-align: justify;
   font-size: 20px;
   opacity: 0;
   animation: slideLeft 1s ease forwards;
@@ -162,6 +163,7 @@ body {
   margin: 15px 0 30px;
 }
 .sobre-text p {
+  text-align: justify;
   color: aliceblue;
   font-size: 20px;
   line-height: 1.4;
@@ -190,10 +192,13 @@ body {
   grid-gap: 40px;
   margin-top: 50px;
 }
+.services-list p {
+  text-align: justify;
+}
 .services-list div {
   background-color: transparent;
   padding: 40px;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 13px;
   border-right: 10px;
   border-radius: 20px;
@@ -261,7 +266,7 @@ section {
   margin-bottom: 50px;
 }
 .bar {
-  font-size: 23px;
+  font-size: 24px;
 }
 .Technical-bars .bar {
   margin-top: 40px 0px;
@@ -510,6 +515,7 @@ section {
   font-weight: 600;
 }
 .contact-text p {
+  text-align: justify;
   color: rgb(177, 177, 177);
   font-size: 20px;
   line-height: 30px;
