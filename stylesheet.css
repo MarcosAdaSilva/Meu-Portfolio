@@ -48,10 +48,10 @@ body {
 }
 .home {
   position: relative;
-  width: 110%;
+  width: 100%;
   justify-content: space-between;
   height: 100vh;
-  background: url(img/Design1.png) no-repeat;
+  background: url(img/) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -266,10 +266,10 @@ section {
   margin-bottom: 50px;
 }
 .bar {
-  font-size: 24px;
+  font-size: 23px;
 }
 .Technical-bars .bar {
-  margin-top: 40px 0px;
+  margin-top: 40px 0;
 }
 .Technical-bars .bar:first-child {
   margin-top: 0;
@@ -294,7 +294,7 @@ section {
   height: 5px;
   background-color: #000000;
   animation: animate 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
-  transform: scaleX(0);
+  transform: scaleX(1);
   transform-origin: left;
 }
 @keyframes animate {
@@ -308,30 +308,30 @@ section {
   position: absolute;
   border-radius: 10px;
   animation: animate 1s 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
-  transform: scaleX(0);
+  transform: scaleX(1);
   transform-origin: left;
 }
 
 .progress-line.html span {
-  width: 60%;
+  width: 75%;
 }
 .progress-line.css span {
-  width: 65%;
+  width: 72%;
 }
 .progress-line.javascript span {
-  width: 75%;
+  width: 60%;
 }
 .progress-line.typescript span {
   width: 65%;
 }
 .progress-line.java span {
-  width: 75%;
+  width: 70%;
 }
 .progress-line.springboot span {
-  width: 80%;
+  width: 60%;
 }
 .progress-line.angular span {
-  width: 75%;
+  width: 70%;
 }
 .progress-line.react span {
   width: 55%;
@@ -350,28 +350,28 @@ section {
 }
 
 .progress-line.html span::after {
-  content: 60%;
+  content: "75%";
 }
 .progress-line.css span::after {
-  content: 65%;
+  content: "72%";
 }
 .progress-line.javascript span::after {
-  content: 75%;
+  content: "60%";
 }
 .progress-line.typscript span::after {
-  content: 65%;
+  content: "65%";
 }
 .progress-line.java span::after {
-  content: 75%;
+  content: "70%";
 }
 .progress-line.springboot span::after {
-  content: 80%;
+  content: "60%";
 }
 .progress-line.angular span::after {
-  content: 75%;
+  content: "70%";
 }
 .progress-line.react span::after {
-  content: 55%;
+  content: "55%";
 }
 
 .progress-line span::before {
