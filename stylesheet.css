@@ -48,10 +48,10 @@ body {
 }
 .home {
   position: relative;
-  width: 100%;
+  width: 105%;
   justify-content: space-between;
   height: 100vh;
-  background: url(img/) no-repeat;
+  background: url(img/Design1.png) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -253,7 +253,7 @@ section {
   flex-wrap: wrap;
 }
 .container1 {
-  width: 600px;
+  width: 500px;
   height: 500px;
   padding: 75px 90px;
   margin-left: 120px;
@@ -263,7 +263,7 @@ section {
   text-decoration: underline;
   text-underline-offset: 10px;
   text-decoration-thickness: 5px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .bar {
   font-size: 23px;
